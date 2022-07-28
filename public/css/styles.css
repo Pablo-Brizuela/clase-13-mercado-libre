@@ -126,19 +126,19 @@ main section article i,
     color: #39b54a;
 }
 
-@media(min-width:361px){
-
-    section h4.description{
-        display: block;
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    }
-
-}
-
 section h4.description{
     display: none;
 }
-
-
-
-
+​
+@media(min-device-width: 361px) {
+    section h4.description{
+        display: inline;
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+}
+@media(min-device-width: 769px) {
+    section h4.description{
+        display: inline;
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+}​
