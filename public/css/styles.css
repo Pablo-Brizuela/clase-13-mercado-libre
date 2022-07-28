@@ -129,6 +129,7 @@ main section article i,
 .discount{
     color: #39b54a;
 }
+<<<<<<< HEAD
     h4{
         display: none;
     }
@@ -160,3 +161,22 @@ main section article i,
 
 
 
+=======
+
+section h4.description{
+    display: none;
+}
+​
+@media(min-device-width: 361px) {
+    section h4.description{
+        display: inline;
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+}
+@media(min-device-width: 769px) {
+    section h4.description{
+        display: inline;
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+}​
+>>>>>>> 8f1d8dbeabe0cbbcaaebd95e341dd2d9beac998c
